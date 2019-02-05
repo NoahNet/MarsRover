@@ -30,7 +30,6 @@ namespace MarsRover
             rover.fuel();
             //grens.test(rover);
             station.toonBasis();
-            station.Laadstation(rover.posX, rover.posY, energie);
             water.watergen();
 
 
