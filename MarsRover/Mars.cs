@@ -13,12 +13,6 @@ namespace MarsRover
         public int grootteY = 20;
         bool[,] arrayrotsen = new bool[40,20];
 
-        public Mars()
-        {
-            RotsenGenereren();
-            RotsenTonen();
-        }
-
         
 
 
@@ -62,9 +56,9 @@ namespace MarsRover
 
         public void RotsenTonen() // YANNICK: Spawn rotsen op random locatie binnen gebied //This is torture
         {
-            for (int i = 0; i < arrayrotsen.GetLength(0); i++)
+            for (int i = 0; i < 39; i++)
             {
-                for (int l = 0; l < arrayrotsen.GetLength(1); l++)
+                for (int l = 0; l < 19; l++)
                 {
                     if (arrayrotsen[i,l] == true)
                     {

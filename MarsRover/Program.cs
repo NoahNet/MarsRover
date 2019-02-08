@@ -31,6 +31,7 @@ namespace MarsRover
             //grens.test(rover)
             station.toonBasis();
             water.watergen();
+            mars.RotsenGenereren();
 
 
             while (true)
@@ -69,6 +70,7 @@ namespace MarsRover
                     rover.gevondenwater();
                     water.WaterZienMap();
                     station.Laadstation(rover.posX, rover.posY, energie);
+                    mars.RotsenTonen();
 
                 }
             }
